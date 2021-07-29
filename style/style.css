@@ -1,0 +1,148 @@
+:root{
+    --azul: #0677d4;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos principais*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa_ultimato.jpg');
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--azul);
+    font-family: 'Arial Black', Times;
+    font-size: 45px;
+    text-shadow: #141414 3px 3px 2px;
+    margin-top: 5px;
+}
+
+header i{
+    font-size: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 15px;
+    text-shadow: #141414 3px 3px 2px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    text-align: justify;
+    text-shadow: #141414 3px 3px 2px;
+    width: 450px;
+    height: 400px;
+    margin-left: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.filme-principal .descricao{
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px
+}
+
+.botao{
+    text-shadow: #141414 3px 3px 2px;
+    background-color: rgba(117, 117, 117, 0.5);
+    border: none;
+    color: white;
+    border-radius: 7%;
+
+    padding: 13px 30px;
+    margin-right: 15px;
+    font-size: 13px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+#botao1{
+    background: white;
+    color:var(--preto);
+    text-shadow: #868484 3px 3px 2px;
+}
+
+.botao:hover{
+    background-color: rgba(160, 153, 153, 0.5);
+}
+
+#botao1:hover{
+    background-color: rgba(243, 242, 242, 0.918);
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carousel-filmes{
+    background: linear-gradient(rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.20)100%);
+    padding: 5px;
+}
+
+.titulo2{
+    margin-bottom: 10px;
+    text-shadow: #141414 3px 3px 2px;
+    color: var(--azul);
+    font-family: sans-serif;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 7px;
+    text-shadow: #141414 3px 3px 2px;
+    font-family: sans-serif;
+}
+
+footer i{
+    font-size: 35px;
+    color: var(--azul);
+    margin: 3px 2px;
+}
+    
